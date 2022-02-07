@@ -3,7 +3,7 @@ from config.config import TestData
 from pages.CampaignPage import CampaignPage
 
 
-class TestHomePage(BaseTest):
+class TestCampignPage(BaseTest):
 
     def test_campaign_page(self):
         campaign_page = CampaignPage(self.driver)
